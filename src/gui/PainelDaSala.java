@@ -32,7 +32,7 @@ public class PainelDaSala extends JPanel {
 		this.sala = sala;
 		inimigoSelecionado = null;
 		
-		setBackground(new Color(0, 255, 255));
+		setBackground(new Color(0, 225, 225));
 		setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0), 2));
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		//setLayout(new GridLayout(3, 0));

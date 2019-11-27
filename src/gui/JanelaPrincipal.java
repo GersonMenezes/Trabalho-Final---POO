@@ -45,6 +45,7 @@ public class JanelaPrincipal extends JFrame implements ActionListener{
         createRooms();
         parser = new Parser();
         heroi = new Heroi("Batman", 8, 10, 100);
+        heroi = new Heroi("Superman", 9, 20, 400);
         
         // Chamada do metodo que vai construir a janela principal
         initGUI();
@@ -276,13 +277,13 @@ public class JanelaPrincipal extends JFrame implements ActionListener{
         
         // Construcao do painel da esquerda #################################################
         //*
-        painelEsq.setLayout(new GridLayout(2, 0));
+        painelEsq.setLayout(new GridLayout(2, 0)); // Divide painel verticalmente em 2
         painelEsq.add(new ImagemSala());
         painelEsq.add(new ImagemMapa());
         //*/
         
         // Construcao do painel da direita ##################################################
-        painelDir.setLayout(new GridLayout(4,0));
+        painelDir.setLayout(new GridLayout(4,0)); // Divide horizontalmente em 4
         
         // Painel do Heroi ------------------------------------------------------------------
         //*

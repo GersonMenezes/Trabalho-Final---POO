@@ -76,8 +76,8 @@ public class JanelaPrincipal extends JFrame implements ActionListener{
 
         lab.setExit("north", outside);
         lab.setExit("east", office);
-        Personagem capanga1 = new Vilao("Capanga1", 2);
-        Personagem capanga2 = new Vilao("Capanga2", 2);
+        Personagem capanga1 = new Vilao("Capanga1", 2,1,1);
+        Personagem capanga2 = new Vilao("Capanga2", 2,2,1);
         lab.inserirPersonagem(capanga1);
         lab.inserirPersonagem(capanga2);
         
